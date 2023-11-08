@@ -332,7 +332,7 @@
          grid-template-columns: repeat(2, 1fr);
          grid-gap: 10%;
          width: 100%;
-         grid-row-gap: 20px;
+         grid-row-gap: 3px;
          margin: 3%;
    }  
   
