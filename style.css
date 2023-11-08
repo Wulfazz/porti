@@ -330,8 +330,7 @@
   @media screen and (max-width: 760px) {  
     .l-container {  
          grid-template-columns: repeat(2, 1fr);
-         grid-template: 40%;
-         grid-gap: 5%;
+         grid-template-rows: 80%;
          width: 100%;
          grid-row-gap: 3px;
          margin: 5%;
