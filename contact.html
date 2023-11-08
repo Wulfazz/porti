@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <!-- Icone -->
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="img/3133552.png"
+    />
+
+    <!--Police pixels-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Lien CSS -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    
+        <!-- Image de fond pour home -->
+        <div class="shelter">
+          <!-- Barre de nav -->
+          <nav class="navbar">
+            <img src="img/radioactive-icon-free-png.png" alt="logoRad" class="logo">
+            <div class="nav-links">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="me.html">Me</a></li>
+                <li><a href="skills.html">skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+            <img src="img/burger.png" alt="menuburger" class="menuburger" >
+        </nav>
+
+    <!-- contenu -->
+    <div class="container">
+        
+        <!-- Formulaire de contact -->
+        <form class="form" action="/action_page.php">
+            <legend>Contact</legend>
+            <label for="fname">Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Name">
+      
+            <label for="sujet">Subject</label>
+            <input type="text" id="sujet" name="subjet" placeholder="subject">
+      
+            <label for="emailAddress">Email</label>
+            <input id="emailAddress" type="email" name="email" placeholder="email">
+      
+      
+            <label for="subject">Message</label>
+            <textarea id="subject" name="subject" placeholder="texte" style="height:200px"></textarea>
+               <input type="submit" value="send">
+
+            <!-- Réseaux sociaux -->    
+        </form>
+        <div class="social">
+
+                <a href="https://discord.gg/s4YEHqAk">
+                    <img class="L2" src="img/discord.png" alt="discord">
+                </a>
+                <a href="https://www.tiktok.com/@kratosdarkrad?_t=8h1MhiFpomW&_r=1">
+                    <img class="L2" src="img/tik-tok.png" alt="tik tok">
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=100009537660651">
+                    <img class="L2" src="img/facebook.png" alt="facebook">
+                </a>
+            </div> 
+    </div>
+</body>
+<script>
+    const menuHamburger = document.querySelector(".menuburger")
+    const navLinks = document.querySelector(".nav-links")
+
+    menuHamburger.addEventListener('click',()=>{
+    navLinks.classList.toggle('mobile-menu')
+    })
+</script>
+</html>

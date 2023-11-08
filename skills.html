@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills</title>
+    
+    <!-- Logo page -->
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="img/3133552.png"
+    />
+    <!-- Lien pour police -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Lier à CSS -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+    <!-- Image de fond pour compétences -->
+    <div class="briques">
+    <!-- Barre de nav -->
+    <nav class="navbar">
+        <img src="img/radioactive-icon-free-png.png" alt="logoRad" class="logo">
+        <div class="nav-links">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="me.html">Me</a></li>
+            <li><a href="skills.html">skills</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <img src="img/burger.png" alt="menuburger" class="menuburger" >
+    </nav> 
+
+        <div class="skillu">
+
+            <li><h3>html</h3>
+                <span class="bar"><span class="html"></span></span>
+            </li>
+            <li><h3>css</h3>
+                <span class="bar"><span class="css"></span></span>
+            </li>
+            <li><h3>javascript</h3>
+                <span class="bar"><span class="javascript"></span></span>
+            </li>
+            <li><h3>php</h3>
+                <span class="bar"><span class="php"></span></span>
+            </li>
+            <li><h3>git</h3>
+                <span class="bar"><span class="git"></span></span>
+            </li>
+            <li><h3>figma</h3>
+                <span class="bar"><span class="figma"></span></span>
+            </li>
+            <li><h3>docker</h3>
+                <span class="bar"><span class="docker"></span></span>
+            </li>
+            <li><h3>Angular</h3>
+                <span class="bar"><span class="angular"></span></span>
+            </li>
+            <li><h3>SQL</h3>
+                <span class="bar"><span class="sql"></span></span>
+            </li>
+        </div>
+    </div>
+</body>
+<script>
+        const menuHamburger = document.querySelector(".menuburger")
+        const navLinks = document.querySelector(".nav-links")
+ 
+        menuHamburger.addEventListener('click',()=>{
+        navLinks.classList.toggle('mobile-menu')
+        })
+</script>
+</html>

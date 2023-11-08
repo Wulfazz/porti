@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills</title>
+    
+    <!-- Logo page -->
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="img/3133552.png"
+    />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Lier à CSS -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+    <!-- Image de fond pour home -->
+    <div class="briques">
+        <!-- Barre de nav -->
+        <nav class="navbar">
+            <img src="img/radioactive-icon-free-png.png" alt="logoRad" class="logo">
+            <div class="nav-links">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="me.html">Me</a></li>
+                <li><a href="skills.html">skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+            <img src="img/burger.png" alt="menuburger" class="menuburger" >
+        </nav> 
+
+        <!-- contenu -->
+        <div class="me projects">
+            <div class="l-container">  
+                <!-- carte 1 -->
+                <div class="b-game-card">  
+                    <div class="b-game-card__cover" style="background-image: url(img/catan.jpg);">
+                        <div class="texteM">Board Games</div>
+                    </div>
+                </div>  
+                <!-- carte 2 -->
+                <div class="b-game-card">  
+                    <div class="b-game-card__cover" style="background-image: url(img/th.jpg);">
+                        <div class="texteM">SharePad</div>
+                    </div>  
+                </div>  
+                <!-- carte 3 -->
+                <div class="b-game-card">  
+                    <div class="b-game-card__cover" style="background-image: url(img/NAUTILUS.png);">
+                        <div class="texteM">Stickers shop</div>
+                    </div>  
+                </div>  
+            </div> 
+        </div>
+</body>
+<script>
+    const menuHamburger = document.querySelector(".menuburger")
+    const navLinks = document.querySelector(".nav-links")
+
+    menuHamburger.addEventListener('click',()=>{
+    navLinks.classList.toggle('mobile-menu')
+    })
+</script>
+</html>

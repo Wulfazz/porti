@@ -3,10 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Soldia</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
+
+    <!-- Icone -->
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="img/3133552.png"
+    />
+
+    <!--Police pixels-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Lien CSS -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     
+    <!-- Image de fond pour home -->
+    <div class="forest">
+    <!-- Barre de nav -->
+    <nav class="navbar">
+        <img src="img/radioactive-icon-free-png.png" alt="logoRad" class="logo">
+        <div class="nav-links">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="me.html">Me</a></li>
+            <li><a href="skills.html">skills</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <img src="img/burger.png" alt="menuburger" class="menuburger" >
+    </nav> 
+
+            <!-- Contenu -->
+            <div class="home">
+
+                <!-- Image du soldat -->
+                <div class="imageH">
+                    <img  src="img/klipartz.com.png" alt="soldier" class="soldier"/>
+                </div>
+
+                <!-- Texte de présentation -->
+                <div class="texteH">
+                    <p id="nom">LAMPS ELEON</p>
+                    <p id="welcome">
+                    Hello hello ... Hm ... My name is Eléon, i`m 25 years old.
+                    I'm a team gamer who doesn't play alone. 
+                    <br>
+                    My world consists mainly of horror games, stories and movies.
+                    <br>
+                    Do you want to play with me ? 
+                    </p>
+                </div>
+            </div>   
+        </div>       
 </body>
+<script>
+    const menuHamburger = document.querySelector(".menuburger")
+    const navLinks = document.querySelector(".nav-links")
+
+    menuHamburger.addEventListener('click',()=>{
+    navLinks.classList.toggle('mobile-menu')
+    })
+</script>
 </html>
