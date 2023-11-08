@@ -109,6 +109,7 @@
   .skillu li{
     margin: 5px 0;
     padding: 10px;
+    text-transform: uppercase;
   }
   
   .bar{
@@ -598,10 +599,15 @@
     }
   
     .skillu{
-      margin: 10% auto;
+      margin: 11% auto;
+      font-size: 1em;
     }
   
     .skillu li{
       padding: 1px;
     }
+
+    .bar{
+        height: 15px;
+      }
   }
