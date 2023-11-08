@@ -331,9 +331,16 @@
     .l-container {  
          grid-template-columns: repeat(2, 1fr);
          width: 100%;
-         grid-gap: 5px;
+         grid-gap: 10px;
          margin: 5%;
    }
+
+   .texteM{
+    height: 15%;
+    width: 100%;
+    font-size: 1rem;
+  }
+
   }  
   
   .b-game-card {  
