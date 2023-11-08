@@ -331,8 +331,9 @@
     .l-container {  
          grid-template-columns: repeat(2, 1fr);
          grid-gap: 10%;
-         width: 90%;
-         grid-row-gap: 4%;
+         width: 100%;
+         grid-row-gap: 1%;
+         margin: 3%;
    }  
   
   
