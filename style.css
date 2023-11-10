@@ -411,7 +411,7 @@
     width: 90%;  
     height: 90%;  
     background: rgba(0, 0, 0, 0.5);  
-    box-shadow: 0 6px 12px 12px rgba(0, 0, 0, 0.4);  
+    box-shadow: 0 6px 12px 12px rgba(9, 9, 9, 0.4);  
     will-change: opacity;    
     transform: skewX(0.001deg);  
     transition: transform 0.35s ease-in-out, opacity 0.5s ease-in-out;  
